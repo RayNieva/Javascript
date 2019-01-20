@@ -1,0 +1,19 @@
+//long running function
+function name(arg) {
+
+
+    console.log();
+}
+
+function name(arg) {
+
+
+    console.log();
+}
+
+//listen for the click event
+
+
+
+
+console.log();

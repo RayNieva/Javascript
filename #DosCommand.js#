@@ -1,0 +1,31 @@
+/**
+ *         Name: DOSCommand.js
+ *  Description: Demonstrates how to execute a DOS Shell 
+ *               and Launch a program with parameters.
+ *       Author: Daren Thiel
+ *         Date: 31 Dec 1998
+ *          Web: http://www.winscripter.com
+ **/
+
+/* Create WSH Shell */
+oShell = WScript.CreateObject( "WScript.Shell" );
+
+/* Launch a command shell "/K" <- keeps it open  */
+/* list the files in the windows directory using */
+/* dir c:\windows                                */
+oShell.Run( "cmd /K dir c:\\Users\\Ray" );
+
+/* Launch word pad with a file to open passed   */
+/* as a command line parameter                  */
+oShell.Run( "wordpad.exe c:\\Users\\ray\\history02-10-16.txt" );
+
+/* Let the user know that we are done           */
+WScript.Echo( "Done" );
+
+function name(arg) {
+
+if (condition) {
+    
+}
+    
+}

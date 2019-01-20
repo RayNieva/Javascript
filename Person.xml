@@ -1,0 +1,16 @@
+;; This buffer is for notes you don't want to save, and for Lisp evaluation.
+;; If you want to create a file, visit that file with C-x C-f,
+;; then enter the text in that file's own buffer.
+
+<?xml version="1.0"?>
+<people>
+  <person first-name="ray" middle-initial="g" last-name="nieva">
+    <address street="10 winter st" city="clinton" state="ma" country="usa"/>
+    <address street="197m boston post rd" city="marlboro" state="ma" country="usa"/>
+  </person>
+
+  <person first-name="joan" last-name="hatstat">
+    <address street="10 winter st" city="clinton" state="ma" country="usa"/>
+    <address street="92 walnut st" city="clinton" state="ma" country="usa"/>
+  </person>
+</people>
